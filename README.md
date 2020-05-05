@@ -1,2 +1,2 @@
 # NSTUTS
-TUTORIALS ON Frontnend development
+TUTORIAL ON Frontend development
