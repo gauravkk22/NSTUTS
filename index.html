@@ -6,27 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 
     <link rel="stylesheet" type="text/css" href="main.css"/>
-
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <style type="text/css">
+        *{
+          font-family: 'Lato',sans-serif;
+          box-sizing: border-box;
+        }
+        header{
+          height: 10vh;
+        }
+        html{
+          height: 100vh;
+          width: 100vw;
+        }
+        main{
+          height: 75vh;
+        }
+        footer{
+          height: 10vh;
+        }
         body{
-          background: #ffe277;
+          background-image: url('images/board.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 100% 65%;
         }
-
-        h1{
-          border-left-width:3%;
-          border-left-color: blue;
-          border-left-style: solid;
-          background: #efefef;
-          margin: 3%;
+        .header-title{
+          background: #162447;
+          color: white;
+          text-align: center;
+          padding: 5px;
         }
-
+        div{
+          width: 100px  - 800px - 700
+        }
         .title1{
-          padding: 2%;
-          margin: 1%;
-          border-width: 1%;
-          border-color: black;
-          border-style: solid;
-          color: red;
+          padding: 10px;
+          margin: 10px;
+          border: solid black 3px;
+          border-radius: 16px;
+          color: black;
+          width: 50px;
+        }
+        .quiz-type-text{
+          font-weight: bold;
+          font-style: italic;
+        }
+        .quiz-nav{
+          height: 5vh;
+          width: 80%;
+          margin: 0 auto;
         }
     </style>
 
@@ -36,20 +65,19 @@
   </head>
   <body >
       <header data-nws="newton-school">
-        <h1 >Qureka</h1>
+        <h1 class="header-title">Qureka</h1>
       </header>
-      <nav style="height:30px;">
-          <section>
+      <nav class="quiz-nav">
+            <span class="quiz-type-text">Quiz Types : </span>
             <a class="title1" href="education.html">EDUCATION</a>
             <a class="title1" href="sports.html">SPORTS</a>
             <a class="title1" href="generalknowledge.html">GENERAL KNOWLEDGE</a>
-          </section>
       </nav>
 
 
       <main>
-
       </main>
+
       <footer>
           &copy; Qureka
       <footer>
